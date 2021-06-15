@@ -12,3 +12,10 @@ for car in frase:
         else:
            cvoc = cvoc + 1
 print("""Cantidad vocales:{}""".format(cvoc))
+
+def vocales(frase):
+    for car in frase:
+        if car in ('a', 'e', 'i', 'o', 'u'):
+            print(car)
+oracion = input('Ingrese una oracion: ')
+vocales(oracion.lower())

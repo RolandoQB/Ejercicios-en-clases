@@ -33,20 +33,44 @@ class For:
         for i in range(12,3,-3):
             print("for",i,end=" ")
         print()
-        print()
-        print()
+        
+        print("_________________________________________")
         lon=len(datos)
         for pos in range(lon):
             print(pos,datos[pos])
         print()
-        print()
+        print("_________________________________________")
         lon=len(numeros)
         for pos in range(lon):
             print(pos,numeros[pos])
         print()
-        print()
+        print("_________________________________________")
         for elem in nombre:
             print(elem,end=" ")
+        print()
+        print("_________________________________________")
+        for pos, valor in enumerate(datos):
+            print(pos,valor,end=" ")
+        for clave,valor in docente.items():
+            print(clave,valor,end=" ")
+        print()
+        print("_________________________________________")
 
+        for notas in listanotas:
+            print("for externo",notas)
+            for nota in notas:
+                print(nota,end=" ")
+            
+            print("saliendo del for interno")
+        print("_________________________________________")
+
+        for notas in listanotas:
+            acum=0
+            for nota in notas:
+                acum=acum+nota
+            print(acum/2,end=" ")
+            
+        print()
+        print("_________________________________________")
 bucle=For()
 bucle.usoFor()

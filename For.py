@@ -45,7 +45,8 @@ class For:
             print(pos,numeros[pos])
         print()
         print()
-
+        for elem in nombre:
+            print(elem,end=" ")
 
 bucle=For()
 bucle.usoFor()

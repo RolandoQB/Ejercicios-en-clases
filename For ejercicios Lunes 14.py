@@ -72,5 +72,18 @@ class For:
             
         print()
         print("_________________________________________")
+        listaalumnos=[{"nombre":"Erick","Final":70},{"nombre":"Yady","Final":60},{"nombre":"Danny","Final":90}]
+        print("\nDiccionario de alumnos")
+        print(listaalumnos)
+        acum=0
+        acum=0
+        for alumnos in listaalumnos:
+            print(alumnos)
+            for clave, valor in alumnos.items():
+                print(clave,":",valor,type(valor),end=" ")
+                if type(valor)== int:
+                    acum=acum+valor
+            print()
+        print("Promedio",acum/3)
 bucle=For()
 bucle.usoFor()

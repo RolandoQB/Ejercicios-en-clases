@@ -18,6 +18,5 @@ class For:
                 cont=cont+1
             print(acump/len(notas))
         print(acum/cont)
-
 bucle = For()
 bucle.usoFor()

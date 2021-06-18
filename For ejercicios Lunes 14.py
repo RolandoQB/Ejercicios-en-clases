@@ -85,5 +85,7 @@ class For:
                     acum=acum+valor
             print()
         print("Promedio",acum/3)
+        print()
+        print("_________________________________________")
 bucle=For()
 bucle.usoFor()

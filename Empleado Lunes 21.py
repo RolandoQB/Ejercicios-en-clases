@@ -18,3 +18,6 @@ class Empleado:
 
 cargo1=Cargo("Docente")
 emp1=Empleado("Daniel",1000,cargo1)
+emp1.mostrar()
+emp2=Empleado("Josue",1000,cargo1)
+emp2.mostrar()

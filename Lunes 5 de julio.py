@@ -1,3 +1,8 @@
+# Rolando Josue Quijije Banchon
+# Software
+# #Tercer semestre
+
+#clase Lunes 5 de julio 
 class ordenar:
     def _init_(self,lista):
          self.lista=lista

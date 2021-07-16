@@ -57,7 +57,12 @@ class Programacion(ejercicios):
 
 
 prog1= Programacion()
-print(prog1.divisores(6))
+div= prog1.divisores(6)
+lista= [1,2]
+lista2= lista+div
+print(lista2)
+
+
 # num=6
 # acumdivisor=prog1.perfecto2(num)
 # if acumdivisor== num:

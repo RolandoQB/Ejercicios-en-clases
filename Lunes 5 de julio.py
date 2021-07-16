@@ -4,7 +4,7 @@
 
 #clase Lunes 5 de julio 
 class ordenar:
-    def _init_(self,lista):
+    def __init__(self,lista):
          self.lista=lista
     
     def recorrerelemento(self):
@@ -89,7 +89,7 @@ print(ord1.ultimoeliminado())
 print(ord1.lista)
 ####################################################################################################
 class ordenar:
-    def _init_(self,lista):
+    def __init__(self,lista):
          self.lista=lista
     
     def recorrerelemento(self):
@@ -167,7 +167,7 @@ print(ord1.lista)
 
 ##################################################################################
 class ordenar:
-    def _init_(self,lista):
+    def __init__(self,lista):
          self.lista=lista
     
     def recorrerelemento(self):

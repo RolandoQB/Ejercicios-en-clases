@@ -36,9 +36,30 @@ class ejercicios:
 class Programacion(ejercicios):
     def __init__(self):
         pass
+
+    def divisores(self,num):
+        cont=1
+        divisores=[]
+        while cont< num:
+            rec= num % cont
+            if rec==0:
+                divisores.append(cont)
+            cont=cont+1
+        print(divisores)
+
+
 prog1= Programacion()
-num=6
-if prog1.perfecto2(num)== num:
-    print(num,"es perfecto")
-else:
-    print(num,"no es perfecto")
+prog1.divisores(6)
+# num=6
+# acumdivisor=prog1.perfecto2(num)
+# if acumdivisor== num:
+#     print(num,"es perfecto")
+# else:
+#     print(num,"no es perfecto")
+# numeros=[3,6,24,28]
+# perfectos=[]
+# for numero in numeros:
+#     if prog1.perfecto2(numero)== numero:
+#         perfectos.append(numero)
+# print(perfectos)
+

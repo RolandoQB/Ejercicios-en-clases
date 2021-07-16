@@ -5,9 +5,9 @@
 #clase Lunes 12 de julio 
 
 def __init__(self):
-        pass
+    pass
 
-    def parimpar(sef,numero):
+    def parimpar(self,numero):
         if numero % 2 == 0:
             print("{} es par".format(numero))
         else:
@@ -43,7 +43,7 @@ class ejercicios:
     def __init__(self):
         pass
 
-    def parimpar(sef,numero):
+    def parimpar(self,numero):
         if numero % 2 == 0:
             print("{} es par".format(numero))
         else:
@@ -92,7 +92,7 @@ class ejercicios:
     def __init__(self):
         pass
 
-    def parimpar(sef,numero):
+    def parimpar(self,numero):
         if numero % 2 == 0:
             print("{} es par".format(numero))
         else:

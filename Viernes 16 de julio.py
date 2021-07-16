@@ -33,10 +33,6 @@ class ejercicios:
                 acu=acu+i
         return acu
 
-class Programacion(ejercicios):
-    def __init__(self):
-        pass
-
     def divisores(self,num):
         cont=1
         divisores=[]
@@ -47,9 +43,21 @@ class Programacion(ejercicios):
             cont=cont+1
         print(divisores)
 
+class Programacion(ejercicios):
+    def __init__(self):
+        pass
+
+    def divisores(self,num):
+        divisores=[]
+        for cont in range(1,num):
+            rec= num % cont
+            if rec==0:
+                divisores.append(cont)
+        return divisores
+
 
 prog1= Programacion()
-prog1.divisores(6)
+print(prog1.divisores(6))
 # num=6
 # acumdivisor=prog1.perfecto2(num)
 # if acumdivisor== num:
